@@ -1,8 +1,5 @@
 <?php
-/*
-  Developed by Aizaz dinho (@aizazdinho)
-  Designed  by Meezan (@iamMeezi)
-*/
+
 include 'core/init.php';
  if (isset($_GET['username']) === true && empty($_GET['username']) === false) {
   $username = $getFromU->checkInput($_GET['username']);

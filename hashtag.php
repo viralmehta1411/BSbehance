@@ -1,8 +1,5 @@
 <?php 
-/*
-  Developed by Aizaz dinho (@aizazdinho)
-  Designed  by Meezan (@iamMeezi)
-*/
+
 	include 'core/init.php';
 
 	if(isset($_GET['hashtag']) && !empty($_GET['hashtag'])){
